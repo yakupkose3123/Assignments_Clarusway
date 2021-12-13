@@ -1,0 +1,8 @@
+sentence = list(input("Enter a sentence:"))
+sentence_dict = {}
+for n in sentence:
+  if n in sentence_dict:
+    sentence_dict[n] +=1
+  else:
+    sentence_dict[n] = 1
+print(sentence_dict)
